@@ -62,6 +62,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/samsung/klte/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+	vendor/samsung/klte/proprietary/lib/cdma/libsec-ril.so:system/lib/cdma/libsec-ril.so \
+	vendor/samsung/klte/proprietary/lib/cdma/libril.so:system/lib/cdma/libril.so \
+	vendor/samsung/klte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
+	vendor/samsung/klte/proprietary/lib/gsm/libril.so:system/lib/gsm/libril.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/klte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/klte/proprietary/bin/efsks:system/bin/efsks \
