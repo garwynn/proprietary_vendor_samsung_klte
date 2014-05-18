@@ -124,7 +124,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/C16QL_s5k2p2xx_module_info.xml:system/etc/C16QL_s5k2p2xx_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QS_imx240_module_info.xml:system/etc/F16QS_imx240_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QL_s5k2p2xx_module_info.xml:system/etc/F16QL_s5k2p2xx_module_info.xml \
-	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
 	vendor/samsung/klte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
 	vendor/samsung/klte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
