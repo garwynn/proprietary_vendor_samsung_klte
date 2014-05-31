@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmhtppstack.so:system/vendor/lib/libmmhtppstack.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
