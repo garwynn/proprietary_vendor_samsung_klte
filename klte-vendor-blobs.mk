@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/klte/proprietary/bin/radish:system/bin/radish \
 	vendor/samsung/klte/proprietary/bin/rfs_access:system/bin/rfs_access \
-	vendor/samsung/klte/proprietary/bin/mm-gesture-daemon:system/bin/mm-gesture-daemon \
 	vendor/samsung/klte/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/klte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/klte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
