@@ -45,6 +45,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
 	vendor/samsung/klte/proprietary/lib/libwebrtc_audio_coding.so:system/lib/libwebrtc_audio_coding.so \
 	vendor/samsung/klte/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
+	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
 	vendor/samsung/klte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
@@ -61,6 +63,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -149,7 +152,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/C16QL_s5k2p2xx_module_info.xml:system/etc/C16QL_s5k2p2xx_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QS_imx240_module_info.xml:system/etc/F16QS_imx240_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QL_s5k2p2xx_module_info.xml:system/etc/F16QL_s5k2p2xx_module_info.xml \
-	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
 	vendor/samsung/klte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
 	vendor/samsung/klte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
